@@ -38,7 +38,7 @@ Deep Learning, Hadoop, Hive, Impala, Apache Spark, Numpy
 ---
 
 ### **SOFT SKILLS**
-**Great At:** Debugging, Analysing Problems and finding solutions, Teamwork
+**Great At:** Debugging, Analysing Problems and finding solutions, Teamwork  
 **Good At:** Designing solutions, Adapting to new environment and culture, Respecting different opinions
 
 ---
