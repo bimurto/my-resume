@@ -1,7 +1,7 @@
 <div align="center">
   <h2 style="font-size: 2em;"><b>Shawrup Kumer Suter</b></h2>
   <p>
-    <b>Dhaka, Bangladesh &bull;<br/>
+    <b>Dhaka, Bangladesh<br/>
     <a href="mailto:shawrup.k.suter@gmail.com">shawrup.k.suter@gmail.com</a> &bull;
     <a href="https://www.linkedin.com/in/shawrup-kumer-suter/">linked.in</a> &bull;
     <a href="https://stackoverflow.com/users/13755857/shawrup">stackoverflow</a> &bull;
