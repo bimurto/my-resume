@@ -1,0 +1,163 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.87]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Shawrup Kumer}
+\familyname{Suter}
+\title{}
+
+\address{(Dhaka, Bangladesh)}    % optional, remove the line if not wanted
+\mobile{(+8801937047053)}                    % optional, remove the line if not wanted
+\email{shawrup.k.suter@gmail.com}                      % optional, remove the line if not wanted
+\photo[70pt][0pt]{photo.jpg}
+% \homepage{http://markliu.me}                % optional, remove the line if not wanted
+%\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Professional Profile}
+\cvline{}{4+ years experienced Software Engineer with expertise in Java and Spring Framework. Highly motivated and strong team player with great technical knowledge. Experienced in developing high performance and highly available microservices while following best development practises. Devops enthusiast and promoter.}
+
+\section{Experience}
+
+\cventry{Mar 2020 -- Present}{Engineer Level 2}{Kona Software Lab Ltd.}{Dhaka, Bangladesh}{}{
+Designed and developed Continuous Integration and Continuous Deployment architecture for Laos Lottery Project. Fixed critical and challenging bugs and implemented of enhanced security measures of this project. Tuned Apache Kafka Performance for event processing.
+}
+
+\cventry{Mar 2019 -- Mar 2020}{Engineer Level 2}{Kona Software Lab Ltd.}{Dhaka, Bangladesh}{}{
+Redesigned and developed of Veaver Video Streaming Service as part of a team. Implemented backend features and database designs. Solely prepared deployment architectures and ETL tools. Successfully migrated data to newly designed system from old system.
+}
+
+\cventry{Jan 2017 -- Feb 2019}{Engineer Level 1}{Kona Software Lab Ltd.}{Dhaka, Bangladesh}{}{
+Developed and maintained multiple microservices for Kona PayPaas and Digital Financial System. Prepared for production deployment for multiple system components. Prepared queries for Data Migration from KonaCard V1 server to V2 server.
+}
+
+\cventry{Mar 2016 -- Dec 2016}{Junior Engineer}{Kona Software Lab Ltd.}{Dhaka, Bangladesh}{}{
+Actively involved in the initial development of Kona PayPaas. Integrated iOS push in the system and also actively took part in feature planning and maintenance of Kona PayPaas. Learned about Card Security and Payment Systems.
+}
+
+
+\section{Technical Skills}
+\subsection{Proficient With}
+\cvline{languages}{Java, SQL, JavaScript}
+\cvline{framework \& libraries}{Spring Framework, Spring Boot, JPA with Hibernate, MyBatis, Junit}
+\cvline{tools \& technologies}{Git, Gradle, Jenkins, Mosquitto, AWS EC2, AWS ECS \& AWS ELB }
+\cvline{databases}{Oracle DB, MySQL, Redis}
+\subsection{Have Experience With}
+\cvline{languages}{Python, Shell Script, PHP, C, C++, HTML, CSS}
+\cvline{framework \& libraries}{ReactJS, AngularJS, Spring Batch, Spring MVC, Spring Data}
+\cvline{tools \& technologies}{MicroService Architecture, Docker, RabbitMQ, Apache Kafka, Thymeleaf, Tomcat, UnderTow, FCM, APN, AWS Lambda, AWS S3, ElasticSearch, Kibana, ELK APM, Ubuntu , CentOS, JasperReport}
+\cvline{databases}{MongoDB}
+
+\section{Soft Skills}
+\subsection{Great At}
+\cvline{}{Critical Thinking, Analysing Problems and finding solutions, Teamwork}
+\subsection{Good At}
+\cvline{}{Designing solutions, Adapting with new environment and culture, Respecting different opinions}
+
+\section{Education}
+\cventry{2011--2015}{B. Sc. in Computer Science and Engineering}{Bangladesh University of Engineering and Technology}{Dhaka, Bangladesh}{}{}
+\cvline{cgpa:}{\small 3.68/4.00}
+% \cventry{2008--2010}{Higher Secondary Certificate}{Notre Dame College}{Dhaka, Bangladesh}{}{}
+% \cvline{gpa:}{\small 5.00/5.00}
+
+
+\section{Worked In Projects}
+\subsection{Laos Lottery Project}
+\cvline{description}{Laos Lottery Project is a Lottery Game System built for Laos. Users will play 5/45 game by buying ticket from Game Terminal or App. After each round the system will calculate prize money and find winners. }
+\cvline{responsibilities}
+{
+\begin{itemize}
+\item Was in charge or Kafka tuning and Kafka failure handling.
+\item Developed CI/CD for smoother integration and deployment.
+\item Developed some security enhancement for the system. 
+\item Participated in fixing critical bugs and stability issues.
+\end{itemize}
+}
+\subsection{Kona Card}
+\cvline{website}{https://www.konacard.co.kr/}
+\cvline{description}{Kona Card is a prepaid service built around Kona PayPaas, a mobile payment platform which offers the users to make payment using both HCE SE (Secure Element) and CardSE. With Kona Card mobile payment system a user make transactions in different merchant shops with NFC enabled POS, Online, QR Code and Barcode Payment using his Smartphone and also with physical card connected to his app.}
+\cvline{responsibilities}
+{
+\begin{itemize}
+\item Designed, implemented and maintained multiple microservices in Kona Card Project.
+\item Actively took part in initial production architecture design and real server deployment.
+\item Actively participated in Kona Card data migration while system redesign.
+\item Participated in Kona Card performance monitoring and performance improvement.
+\end{itemize}
+}
+\subsection{Digital Financial System - Nagad}
+\cvline{website}{https://nagad.com.bd/}
+\cvline{description}{Nagad is a Digital Financial Service of Bangladesh Post Office. Users can register in Nagad with valid IDs and can access features like deposit of e-money in their Nagad account, sending e-money from one user to another user, cashing out of e-money from Nagad agents, make payments to merchants, mobile top up and others.}
+\cvline{responsibilities}
+{
+\begin{itemize}
+\item Designed, implemented and maintained multiple microservices in Nagad project.
+\end{itemize}
+}
+\subsection{Video Streaming Service - Veaver}
+\cvline{website}{https://www.veaver.com/}
+\cvline{description}{Veaver is video based knowledge sharing service. You can upload a video and add extra metadata as secondary knowledge at different points of the video like texts explaining the topic shown at that time in the video, pictures , links, maps , quiz and votes.}
+\cvline{responsibilities}
+{
+\begin{itemize}
+\item Actively took part in Veaver redesign and development.
+\item Designed and implemented an ETL tool to Migrate V1 data to V2 structure.
+\item Designed, created and maintained Veaver production deployment architecture in AWS.
+\end{itemize}
+}
+
+\section{Hobbies \& Interests}
+\cvline{Reading}{Love to read books specially thrillers.}
+\cvline{Tech \& Gadgets}{Love new technology and gadgets and always try to keep up to date of them.}
+\cvline{Software \& OS}{Linux enthusiast and loves distro hopping. Always eager to try out new technology for fun.}
+
+% \section{References}
+% \cventry{}{Minaoar Hossain Tanzil}{}{}{}{}
+% \cvline{designation}{Managing Director}
+% \cvline{workplace}{Kona Software Lab Ltd., Dhaka, Bangladesh}
+% \cvline{email}{minaoar.tanzil@konasl.com}
+% \cventry{}{Md. Khaled Hussain}{}{}{}{}
+% \cvline{designation}{Chief Technical Office}
+% \cvline{workplace}{Kona Software Lab Ltd., Dhaka, Bangladesh}
+% \cvline{email}{khaled.hussain@konasl.com}
+% \cventry{}{Mizanur Rahaman Khan}{}{}{}{}
+% \cvline{designation}{System Architect}
+% \cvline{workplace}{Kona Software Lab Ltd., Dhaka, Bangladesh}
+% \cvline{email}{mizanur.khan@konasl.com}
+
+
+\end{document}
